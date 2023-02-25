@@ -1,0 +1,40 @@
+Comandos basicos de GIT
+
+-ls (comando para listar directorios y archivos).
+
+-pwd (ver la ruta donde esta ubicada la terminal).
+
+-cd onedrive (ingresar al escritorio).
+
+-git init (para iniciar un proyecto nuevo).
+
+-git status (para ver el estado de los archivos)
+
+-git add <nombreArchivo.extension> (agregar archivo al area de trabajo).
+
+-git commit (primer punto de control del codigo) (se presiona i para poder digitar un comentario se presiona esc y se digita :wq y enter.
+
+-git config --global user.email "email@email.com" (configurar email de este usuario).
+
+-git config --global user.name "nombreUsuario" (confiurar el nombre del usuario).
+
+-git log (ver todos los commits creados).
+
+-git checkout --nombreArchivo (revertir los cambios en los archivos modificados).
+
+-git diff nombreArchivo  (diferencias hechas entre los archivos).
+
+
+-Se crea un archivo de nombre .gitignore para ignorar archivos que no queremos agregar al repositorio.
+
+-git commit -m "comentario" (se agrega un nuevo commit con comentario).
+
+- git branch (me  muestra la rama en la que esta el proyecto).
+
+-git branch nombreRama (se agrega una nueva rama).
+
+-git checkout nombreRama (se cambia a la rama que elijamos).
+
+-git add . (me agreaga todos los archivos juntos).
+
+-git push -u origin master (sube los archivos al repositorio).
